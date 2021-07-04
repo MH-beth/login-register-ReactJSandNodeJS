@@ -1,0 +1,76 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  background-color: #08bea9;
+  border : solid 10px dodgerblue;
+  border-radius : 4rem;
+
+}
+.login {
+  border-radius : 2rem;
+  padding : 4rem;
+}
+.register{
+  border-radius : 2rem;
+  padding : 4rem;
+  background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(190,8,162,1) 79%, rgba(0,212,255,1) 100%);
+}
+label {
+  text-decoration: underline;
+  font-size:30px;
+}
+input{
+  border-radius : 2rem;
+  padding :10px;
+}
+
+button {
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.8em;
+  border-radius: 2rem;
+  border: 0;
+  cursor: pointer;
+  font-weight: 400;
+  font-stretch: normal;
+  letter-spacing: .8px;
+  padding: .72em 1.5em;
+  position: relative;
+  transition: all .2s ease-in-out;
+  background: orange;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+button:hover {
+  transition : all 0.5s ease-in-out;
+  border: solid 5px white;
+  background:linear-gradient(90deg, rgb(0, 255, 234), rgb(118, 0, 253));
+}
+
+h1{
+  color : white;
+  text-decoration : underline;
+}
+
+.name {
+  color : white;
+  text-align : center;
+  border : solid 10px;
+  border-radius : 2rem;
+  margin-left : 500px;
+  margin-right:500px;
+  background-color :dodgerblue;
+  padding : 2rem;
+}
+
+.statue{
+  color : white;
+  font-size : 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
